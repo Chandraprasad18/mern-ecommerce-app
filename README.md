@@ -1,8 +1,10 @@
 # 🛒 MERN E-Commerce Application
 
 A full-stack MERN E-Commerce web application developed using **React.js, Node.js, Express.js, and MongoDB**.
+
 This project provides secure user authentication, product management, shopping cart functionality, REST API integration, and a responsive user interface.
 
+---
 
 # 🚀 Features
 
@@ -44,7 +46,7 @@ This project provides secure user authentication, product management, shopping c
 * REST APIs
 * Razorpay
 
-
+---
 
 # 🔐 Authentication System
 
@@ -55,7 +57,7 @@ This project provides secure user authentication, product management, shopping c
 * Protected User Routes
 * JWT Authentication
 
-
+---
 
 # 📂 Project Structure
 
@@ -66,7 +68,7 @@ This project provides secure user authentication, product management, shopping c
 * Authentication Middleware
 * MVC Backend Architecture
 
-
+---
 
 # 🧪 API Testing
 
@@ -102,24 +104,36 @@ git clone https://github.com/Chandraprasad18/mern-ecommerce-app.git
 
 ## Backend Setup
 
+```bash
 cd backend
 npm install
 npm start
+```
+
+---
 
 ## Frontend Setup
 
+```bash
 cd frontend
 npm install
 npm run dev
+```
+
+---
 
 # 🔑 Environment Variables
 
 Create a `.env` file inside the backend folder and add:
 
+```env
 MONGO_URI=your_mongodb_connection
 JWT_SECRET=your_secret_key
 RAZORPAY_KEY_ID=your_razorpay_key_id
 RAZORPAY_SECRET=your_razorpay_secret
+```
+
+---
 
 # 📫 Author
 
@@ -127,3 +141,4 @@ RAZORPAY_SECRET=your_razorpay_secret
 
 MERN Stack Developer | Open to Work
 
+---
